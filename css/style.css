@@ -15,6 +15,26 @@
   color: var(--text-color-light);
 }
 
+.form{
+  display: flex;
+}
+
+.input{
+  width: 248px;
+  height: 44px;
+  border: 2px solid white;
+  border-radius: 4px 0 0 4px;
+  background-color: #EEEEEE;
+}
+
+.button{
+  width: 52px;
+  height: 44px;
+  bottom: none;
+  border-radius: 0 4px 4px 0;
+  background-color: white;
+}
+
 .icon-search {
   width: 18px;
   height: 17px;
