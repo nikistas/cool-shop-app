@@ -1,6 +1,9 @@
 /* --------- HEADER ---------*/
 .header {
+  height: 72px;
   display: flex;
+  justify-self: space-between;
+  align-items: center;
   background: var(--header-gradient);
 }
 
@@ -15,19 +18,19 @@
   color: var(--text-color-light);
 }
 
-.form{
+.form {
   display: flex;
 }
 
-.input{
+.input {
   width: 248px;
   height: 44px;
   border: 2px solid white;
   border-radius: 4px 0 0 4px;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
-.button{
+.button {
   width: 52px;
   height: 44px;
   bottom: none;
@@ -38,6 +41,19 @@
 .icon-search {
   width: 18px;
   height: 17px;
+}
+
+.language-changer {
+  font-size: 24px;
+  display: flex;
+  color: white;
+}
+
+.language-changer-button {
+  font-size: 24px;
+  border: none;
+  background: none;
+  color: white;
 }
 
 .icon-favorite-light {
