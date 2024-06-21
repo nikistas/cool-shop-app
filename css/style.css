@@ -2,7 +2,7 @@
 .header {
   height: 72px;
   display: flex;
-  justify-self: space-between;
+  justify-content: space-between;
   align-items: center;
   background: var(--header-gradient);
 }
